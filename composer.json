@@ -1,0 +1,27 @@
+{
+    "name": "mp/workflow",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andy Dorff",
+            "email": "andrew.dorofieiev@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Workflow\\": ""
+        }
+    },
+    "require": {
+        "symfony/workflow": "^5.4",
+        "symfony/event-dispatcher": "^4.4"
+    }
+}
